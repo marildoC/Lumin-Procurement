@@ -39,18 +39,7 @@ Structured data from tenders, submissions, evaluations, scoring, and process act
 
 The platform follows a **human-in-the-loop** model: automation and analytical intelligence support the process, while evaluation and procurement decisions remain explicit and traceable.
 
----
 
-<div align="center">
-
-**Technology**
-
-`React` · `TypeScript` · `Vite` · `React Router` · `TanStack Query` · `Radix UI` · `Tailwind CSS`
-
-<br>
 
 **From tender workflow to structured decision intelligence.**
 
-
-
-</div>
