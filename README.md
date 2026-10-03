@@ -4,7 +4,7 @@
 
 ### Structured procurement. Clearer decisions.
 
-A role-aware procurement environment connecting tender management, supplier participation, evaluation, and decision workflows within a single operational model.
+A role-aware procurement environment for coordinating tender lifecycles, supplier participation, structured evaluation, and decision-making within a unified operational model.
 
 <br>
 
@@ -19,27 +19,34 @@ A role-aware procurement environment connecting tender management, supplier part
 
 ## Lumin
 
-Lumin models procurement as a connected decision process rather than a collection of isolated administrative tasks.
+Lumin treats procurement as a **stateful decision system**.
 
-Tender state, supplier submissions, evaluator assessments, scoring, and decision context remain linked throughout the procurement lifecycle, while each participant operates through a dedicated role-specific workflow.
+Tenders, submissions, evaluations, scoring, and participant responsibilities are represented as parts of the same process, allowing the platform to preserve context as procurement moves from opportunity creation to comparative assessment and final decision.
 
 ```mermaid
 flowchart LR
-    A[Tender] --> B[Submission]
-    B --> C[Evaluation]
-    C --> D[Comparison]
+    A[Opportunity] --> B[Submission]
+    B --> C[Assessment]
+    C --> D[Comparative Review]
     D --> E[Decision]
 ```
 
-## Decision Intelligence
+## Decision Layer
 
-Lumin is designed around the transition from **procurement workflow to procurement intelligence**.
+Lumin is structured around three principles:
 
-Structured data from tenders, submissions, evaluations, scoring, and process activity can form the basis for automated workflow coordination and intelligent decision support — surfacing relevant signals, identifying exceptions, reducing repetitive administrative work, and preserving context across the procurement lifecycle.
+**Orchestration** — procurement activity progresses through controlled states, role boundaries, and explicit responsibilities.
 
-The platform follows a **human-in-the-loop** model: automation and analytical intelligence support the process, while evaluation and procurement decisions remain explicit and traceable.
+**Decision context** — submissions, evaluator input, scoring, status, and process history remain associated with the decision they inform.
 
+**Intelligence readiness** — structured workflow data creates a foundation for automation and decision-support capabilities such as exception detection, document analysis, supplier signals, and assisted evaluation.
 
+The model remains **human-in-the-loop**: intelligence can organize evidence and surface relevant signals, while evaluation and procurement authority remain explicit and traceable.
 
-**From tender workflow to structured decision intelligence.**
+---
 
+<div align="center">
+
+**From procurement workflow to decision intelligence.**
+
+</div>
