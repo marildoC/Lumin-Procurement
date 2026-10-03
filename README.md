@@ -2,7 +2,7 @@
 
 # Lumin Procurement
 
-### Structured procurement. Clearer decisions.
+### Structured procurement. Clearer decisions. 
 
 A role-aware procurement environment for coordinating tender lifecycles, supplier participation, structured evaluation, and decision-making within a unified operational model. 
 
